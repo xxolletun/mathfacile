@@ -11,3 +11,8 @@ def soustraire(a, b):
 def multiplier(a, b):
     """Multiplie deux nombres a et b."""
     return a * b
+
+
+def diviser(a, b):
+    """Divise le nombre a par le nombre b."""
+    return a / b
