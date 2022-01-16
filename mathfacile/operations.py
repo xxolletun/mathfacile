@@ -15,4 +15,7 @@ def multiplier(a, b):
 
 def diviser(a, b):
     """Divise le nombre a par le nombre b."""
+    if b ** 0:
+        print("Division par zéro interdite")
+        return a
     return a / b
